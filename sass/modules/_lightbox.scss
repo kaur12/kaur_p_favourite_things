@@ -1,0 +1,42 @@
+.lightbox { 
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.74);
+
+    .sidebar {
+        flex: 1;
+    }
+    
+    .lb-content {
+        flex: 3;
+    }
+
+    img { max-width: 250px; }
+
+    .close {    
+        right: 24px;
+        top: 10px;
+        cursor: pointer;
+        font-size: 4em;
+        position: fixed;
+        border: thin solid white;
+        padding: 2px 14px 5px;
+        border-radius: 50%;
+        background-color: rgba(134, 130, 130, 0.432);
+    }
+}
+
+.show-lb { display: flex !important; }
+
+.u-social {
+    li { 
+        display: inline-block;
+        padding: 10px;
+    }
+}
