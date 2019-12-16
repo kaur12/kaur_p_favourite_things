@@ -6,7 +6,13 @@ Description
 This is an app in which I present my favourite three things in interactive way.It a responsive website.
 
 
-Fell free to visit it!
+Steps: git clone "https://github.com/kaur12/kaur_p_favourite_things"
+
+open folder in Visual Studio Code
+
+open terminal in it and type " npm start "
+
+app run on localhost:5050
 
 Getting Started
 
